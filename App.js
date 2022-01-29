@@ -6,53 +6,6 @@ import Foto from './assets/foto.jpeg';
 import Icon from 'react-native-vector-icons/Feather'
 import Card from './componentes/Card/Index';
 
-//Gerador de Numeros Aleatorios
-/*
-export default function App() {
-
-  const [numero, setNumero] = useState(0)
-
-  function handleNumero () {
-    const novo_numero = Math.floor(Math.random() * 10) 
-    setNumero(novo_numero)
-  }
-
-  return (
-    <View style={styles.container}>
-      <SafeAreaView>
-       <Text style={styles.numero}>{numero}</Text>
-        <TouchableOpacity onPress={handleNumero} style={styles.botao}>
-          <Text>Gerar Número</Text>
-        </TouchableOpacity>
-        <StatusBar style="auto" />
-      </SafeAreaView>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ff0000',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  numero: {
-    fontSize: 24,
-    color: '#ffffff',
-    fontWeight:'bold',
-  },
-  botao: {
-    backgroundColor: '#ffffff',
-    width:'100%',
-    paddingHorizontal: 5,
-    paddingVertical: 10,
-    borderRadius: 5,
-    marginTop: 10,
-  }
-});
-*/
-
 const App = () => {
   
   function handleRedeSocial( rede_social ) {
